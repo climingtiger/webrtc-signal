@@ -1,0 +1,8 @@
+name = "webrtc-signal"
+main = "src/index.js"
+compatibility_date = "2025-12-15"
+
+# 只声明绑定名称，不写 id！
+[[kv_namespaces]]
+binding = "SIGNAL_KV"
+# id = ""  # ← 完全省略这一行！
